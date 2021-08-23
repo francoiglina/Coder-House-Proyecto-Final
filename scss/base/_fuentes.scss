@@ -1,0 +1,14 @@
+/* Fuentes */
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('../web-fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(../web-fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff);
+}
+
+$font-titulos: 20px;
+$font-principal: 16px;
+$font-disco-titulos: 30px;

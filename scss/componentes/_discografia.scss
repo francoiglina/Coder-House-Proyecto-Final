@@ -1,0 +1,158 @@
+@import '../base/colores';
+
+/* Discografía */
+.discografia-container {
+    display: flex;
+    max-width: 880px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid $gris;
+    border-radius: 2px;
+
+    .img-discografia {
+        width: 40%;
+        float: left;
+    }
+
+    .disco-texto {
+        padding-left: 380px;
+    }
+
+    .titulo-disco {
+        font-family: 'roboto-bold';
+        font-size: $font-disco-titulos;
+        color: $blanco;
+    }
+
+    .tracklist {
+        font-family: 'roboto-regular';
+        font-size: $font-principal;
+        color: $blanco;
+        list-style: none;
+
+
+
+    }
+
+}
+
+/* Media query */
+/* Mobile */
+@media screen and (min-width: 320px) {
+
+    /* Discografía */
+    .discografia-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 250px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid $gris;
+        border-radius: 2px;
+
+        .img-discografia {
+            width: 100%;
+            padding-bottom: 10px;
+        }
+
+        .disco-texto {
+            padding: 0px;
+
+            .titulo-disco {
+                font-family: 'roboto-bold';
+                font-size: 20px;
+                color: $blanco;
+            }
+
+            .tracklist {
+                font-family: 'roboto-regular';
+                color: $blanco;
+                list-style: none;
+            }
+        }
+
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+
+    /* Discografía */
+    .discografia-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid $gris;
+        border-radius: 2px;
+
+        .img-discografia {
+            width: 100%;
+            padding-bottom: 10px;
+        }
+
+        .disco-texto {
+            padding: 0px;
+
+            .titulo-disco {
+                font-family: 'roboto-bold';
+                font-size: 20px;
+                color: $blanco;
+            }
+
+            .tracklist {
+                font-family: 'roboto-regular';
+                color: $blanco;
+                list-style: none;
+            }
+        }
+
+    }
+
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+
+    /* Discografía */
+    .discografia-container {
+        display: flex;
+        max-width: 880px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid $gris;
+        border-radius: 2px;
+
+        .img-discografia {
+            width: 40%;
+            float: left;
+        }
+
+        .disco-texto {
+            padding-left: 380px;
+        }
+
+        .titulo-disco {
+            font-family: 'roboto-bold';
+            font-size: $font-disco-titulos;
+            color: $blanco;
+        }
+
+        .tracklist {
+            font-family: 'roboto-regular';
+            font-size: $font-principal;
+            color: $blanco;
+            list-style: none;
+
+
+
+        }
+
+    }
+
+}

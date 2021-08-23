@@ -1,0 +1,56 @@
+@import '../base/colores';
+
+/* Miembros */
+.container-miembros {
+    font-family: 'roboto-regular';
+    font-size: $font-principal;
+    color: $blanco;
+}
+
+/* Media query */
+
+
+/* Mobile */
+@media screen and (min-width: 320px) {
+
+    /* Miembros */
+    .container-miembros {
+        font-family: 'roboto-regular';
+        font-size: $font-principal;
+        color: $blanco;
+
+        #carouselExampleControls {
+            width: 100% !important;
+        }
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+
+    /* Miembros */
+    .container-miembros {
+        font-family: 'roboto-regular';
+        font-size: $font-principal;
+        color: $blanco;
+
+        #carouselExampleControls {
+            width: 100% !important;
+        }
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+
+    /* Miembros */
+    .container-miembros {
+        font-family: 'roboto-regular';
+        font-size: $font-principal;
+        color: $blanco;
+
+        #carouselExampleControls {
+            width: 75% !important;
+        }
+    }
+}

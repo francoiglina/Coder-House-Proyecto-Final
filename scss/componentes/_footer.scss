@@ -1,0 +1,42 @@
+@import '../base/colores';
+
+/* Footer */
+footer {
+
+    width: 100%;
+    height: 90px;
+    position: relative;
+    bottom: 0px;
+    background-color: $color-footer;
+
+    .footer-container {
+
+        .social-botones {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+
+            a {
+
+                &:link {
+                    color: $verde;
+                }
+
+                &:visited {
+                    color: $verde;
+                }
+
+                &:hover {
+                    color: $blanco;
+                }
+
+                i {
+                    padding: 16px;
+                }
+            }
+
+        }
+
+    }
+
+}
