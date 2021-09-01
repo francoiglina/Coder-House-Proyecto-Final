@@ -1,10 +1,17 @@
 @import '../base/colores';
 
-/* Miembros */
-.container-miembros {
+/* Biografía */
+.container-biografia {
     font-family: 'roboto-regular';
     font-size: $font-principal;
     color: $blanco;
+    min-height: calc(100vh - 100px - 90px);
+
+    .container-biografia-texto {
+        font-family: 'roboto-regular';
+        font-size: $font-principal;
+        text-align: start;
+    }
 }
 
 /* Media query */
@@ -13,8 +20,8 @@
 /* Mobile */
 @media screen and (min-width: 320px) {
 
-    /* Miembros */
-    .container-miembros {
+    /* Biografía */
+    .container-biografia {
         font-family: 'roboto-regular';
         font-size: $font-principal;
         color: $blanco;
@@ -28,8 +35,8 @@
 /* Tablet */
 @media screen and (min-width: 600px) {
 
-    /* Miembros */
-    .container-miembros {
+    /* Biografía */
+    .container-biografia {
         font-family: 'roboto-regular';
         font-size: $font-principal;
         color: $blanco;
@@ -43,8 +50,8 @@
 /* Desktop */
 @media screen and (min-width: 1024px) {
 
-    /* Miembros */
-    .container-miembros {
+    /* Biografía */
+    .container-biografia {
         font-family: 'roboto-regular';
         font-size: $font-principal;
         color: $blanco;

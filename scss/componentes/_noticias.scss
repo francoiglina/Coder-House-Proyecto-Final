@@ -1,0 +1,35 @@
+@import '../base/colores';
+
+.container-noticias {
+    font-family: 'roboto-regular';
+    color: $blanco;
+    
+    .noticia-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        .titulo-noticia {
+            font-family: 'roboto-bold';
+        }
+
+        .image-noticia-1 {
+            width: 300px;
+
+        }
+
+        .parrafo-noticia {
+            font-family: 'roboto-regular';
+            font-size: $font-principal;
+            color: $blanco;
+        }
+    }
+
+    .noticia-2 {
+
+        .image-noticia-2 {
+            width: 500px;
+        }
+
+    }
+}
