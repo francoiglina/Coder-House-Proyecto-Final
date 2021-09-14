@@ -8,6 +8,7 @@
     padding: 20px;
     border: 1px solid $gris;
     border-radius: 2px;
+    min-height: calc(100vh - 100px - 150px);
 
     .img-discografia {
         width: 40%;
@@ -50,6 +51,7 @@
         padding: 20px;
         border: 1px solid $gris;
         border-radius: 2px;
+        min-height: calc(100vh - 100px - 150px);
 
         .img-discografia {
             width: 100%;
@@ -89,6 +91,7 @@
         padding: 20px;
         border: 1px solid $gris;
         border-radius: 2px;
+        min-height: calc(100vh - 100px - 150px);
 
         .img-discografia {
             width: 100%;
@@ -127,6 +130,7 @@
         padding: 20px;
         border: 1px solid $gris;
         border-radius: 2px;
+        min-height: calc(100vh - 100px - 150px);
 
         .img-discografia {
             width: 40%;

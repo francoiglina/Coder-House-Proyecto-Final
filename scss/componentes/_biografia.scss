@@ -5,7 +5,7 @@
     font-family: 'roboto-regular';
     font-size: $font-principal;
     color: $blanco;
-    min-height: calc(100vh - 100px - 90px);
+    min-height: calc(100vh - 100px - 150px);
 
     .container-biografia-texto {
         font-family: 'roboto-regular';
@@ -15,8 +15,6 @@
 }
 
 /* Media query */
-
-
 /* Mobile */
 @media screen and (min-width: 320px) {
 
@@ -25,6 +23,7 @@
         font-family: 'roboto-regular';
         font-size: $font-principal;
         color: $blanco;
+        min-height: calc(100vh - 100px - 150px);
 
         #carouselExampleControls {
             width: 100% !important;
@@ -40,6 +39,7 @@
         font-family: 'roboto-regular';
         font-size: $font-principal;
         color: $blanco;
+        min-height: calc(100vh - 100px - 150px);
 
         #carouselExampleControls {
             width: 100% !important;
@@ -55,6 +55,7 @@
         font-family: 'roboto-regular';
         font-size: $font-principal;
         color: $blanco;
+        min-height: calc(100vh - 100px - 150px);
 
         #carouselExampleControls {
             width: 75% !important;

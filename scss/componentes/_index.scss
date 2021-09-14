@@ -3,7 +3,7 @@
 /* Inicio */
 
 .container-inicio {
-    display: flexbox;
+    display: flex;
     margin: 10px;
     padding-bottom: 30px;
     border-bottom: solid 1px $gris;
@@ -25,7 +25,7 @@
     grid-template-areas: "gal-img1 gal-img2 gal-img3 gal-img4";
     margin: 10px;
     justify-content: center;
-    min-height: calc(100vh - 100px - 90px);
+    min-height: calc(100vh - 100px - 150px);
 
     .gal-img1 {
         grid-area: gal-img1;
@@ -84,6 +84,7 @@
         padding: 20px;
         justify-content: center;
         border-bottom: solid 1px $gris;
+        min-height: calc(100vh - 100px - 150px);
 
         .gal-img1 {
             grid-area: gal-img1-img2;
@@ -132,6 +133,7 @@
         margin: 10px;
         padding-bottom: 20px;
         border-bottom: solid 1px $gris;
+        
 
         .image-inicio {
             width: 620px;
@@ -152,6 +154,7 @@
         padding: 20px;
         justify-content: center;
         border-bottom: solid 1px $gris;
+        min-height: calc(100vh - 100px - 150px);
 
         .gal-img1 {
             grid-area: gal-img1-img2;
@@ -220,6 +223,7 @@
         padding: 20px;
         justify-content: center;
         border-bottom: solid 1px $gris;
+        min-height: calc(100vh - 100px - 150px);
 
         .gal-img1 {
             grid-area: gal-img1;
